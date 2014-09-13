@@ -1,5 +1,5 @@
 part of parse;
 
-class AddOperation extends FieldOperation {
+class AddOperation implements FieldOperation {
 
 }

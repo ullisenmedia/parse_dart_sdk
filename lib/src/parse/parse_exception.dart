@@ -1,6 +1,17 @@
 part of parse;
 
-class ParseException extends Exception {
+class ParseException implements Exception {
 
-  ParseException({String message, Number code: 0, Exception previous}) : super(message, code, previous);
+  final String message;
+  final int code;
+  Exception previous;
+
+  ParseException([this.message = "", this.code = 0, Exception previous = null]);
+
+  String toString() {
+
+    if(!message) return "ParseException";
+
+    return "ParseException: $message $code";
+  }
 }

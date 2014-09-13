@@ -1,6 +1,6 @@
 part of parse;
 
-class RemoveOperation extends FieldOperation {
+class RemoveOperation implements FieldOperation {
 
   List _objects;
 

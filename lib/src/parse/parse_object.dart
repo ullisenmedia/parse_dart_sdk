@@ -103,5 +103,6 @@ class ParseObject extends ParseRemoteObject {
   }
 
   String get objectId => _objectId;
+  String get className => _className;
 
 }

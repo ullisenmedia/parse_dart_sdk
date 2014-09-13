@@ -1,6 +1,6 @@
 part of parse;
 
-class SetOperation extends FieldOperation {
+class SetOperation implements FieldOperation {
 
   dynamic _value;
 
