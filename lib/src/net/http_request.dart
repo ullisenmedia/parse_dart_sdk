@@ -1,4 +1,4 @@
-part of parse_common;
+part of parse;
 
 class HttpRequest {
 

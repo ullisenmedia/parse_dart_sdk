@@ -1,6 +1,6 @@
-part of mudi_core_common;
+part of parse;
 
-class BaseAPIClient {
+class HttpClient {
 
   final Uri baseUrl;
   final String key;
@@ -9,7 +9,7 @@ class BaseAPIClient {
   Uri _url;
   BaseClient _client;
 
-  BaseAPIClient(this.baseUrl, this.key, this.version, BaseClient client, [int port = 0]) {
+  HttpClient(this.baseUrl, this.key, this.version, BaseClient client, [int port = 0]) {
 
     _client = client;
     _url = Uri.parse('${baseUrl}:${port}/${version}/');
