@@ -1,0 +1,7 @@
+name: parse_dart_sdk
+dependencies:
+  browser: any
+  http: '>=0.11.1+1 <0.12.0'
+  logging: '>=0.9.0 <0.10.0'
+dev_dependencies:
+  unittest: '>=0.10.0 <0.10.1'
