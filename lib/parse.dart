@@ -2,6 +2,7 @@ library parse;
 
 // imports
 import 'dart:html';
+import 'dart:io';
 import 'dart:async';
 import 'dart:convert';
 import 'package:http/browser_client.dart';
@@ -29,9 +30,13 @@ part 'src/core/increment_operation.dart';
 part 'src/core/relation_operation.dart';
 
 // parse
+part 'src/parse/parse_sub_class.dart';
 part 'src/parse/parse_client.dart';
 part 'src/parse/parse_remote_object.dart';
 part 'src/parse/parse_object.dart';
 part 'src/parse/parse_acl.dart';
 part 'src/parse/parse_relation.dart';
 part 'src/parse/parse_exception.dart';
+part 'src/parse/parse_user.dart';
+part 'src/parse/parse_file.dart';
+part 'src/parse/parse_aggregation_exception.dart';

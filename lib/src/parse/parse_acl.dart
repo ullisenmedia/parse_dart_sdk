@@ -7,4 +7,10 @@ class ParseACL extends ParseObject {
   ParseACL(): super(ENPOINT) {
 
   }
+
+  ParseACL.fromJson(arg) {
+
+  }
+
+  get isShared => true;
 }

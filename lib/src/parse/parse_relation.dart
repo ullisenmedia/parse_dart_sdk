@@ -4,7 +4,9 @@ class ParseRelation extends ParseObject {
 
   static const String ENDPOINT = '';
 
-  ParseRelation(): super(ENPOINT) {
+  String targetClassName;
+
+  ParseRelation([arg1, arg2, arg3]): super(ENPOINT) {
 
   }
 }
